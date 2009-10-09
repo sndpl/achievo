@@ -27,14 +27,16 @@
   module("timereg");
   module("project");
   module("organization");
+  module("search");
+  module("pim");
+  module("graph");
+
+  // Core modules that can be turned off by commenting them
   module("notes");
   module("scheduler");
   module("todo");
   module("reports");
-  module("pim");
-  module("search");
-  module("graph");
   module("quotation");
   module("docmanager");
   module("crm");
-?>
+
