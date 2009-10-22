@@ -6,6 +6,8 @@ Bug numbers are references to bugs in http://www.achievo.org/bugzilla
 
 Changes in Achievo 1.5
 ----------------------
+* Fixed problem with displaying non active employees in the project
+  team search. (Bug #1561) [Yury]
 
 
 
