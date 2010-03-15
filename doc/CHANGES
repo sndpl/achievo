@@ -9,6 +9,7 @@ Changes in Achievo 1.5
 * Fixed problem with displaying non active employees in the project
   team search. (Bug #1561) [Yury]
 * Fixed weekview date display. [Sandy]
+* Fixed typo's in some translations. [Guido]
 
 
 
