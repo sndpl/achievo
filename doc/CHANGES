@@ -11,6 +11,7 @@ Changes in Achievo 1.5
   team search. (Bug #1561) [Yury]
 * Fixed weekview date display. [Sandy]
 * Fixed typo's in some translations. [Guido]
+* Allow all GET and POST parameters in links to index.php. [Guido]
 
 
 
