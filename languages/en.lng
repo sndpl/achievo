@@ -704,6 +704,11 @@
   "show_all_phases" => "Show all phases",
   "show_nonactive_phases" => "Show nonactive phases",
   "profile_updated"=> "Your profile has been updated",
+  "menu_tpl_contract_admin" => "Employee contract templates",
+  "tpl_contract" => "Employee contract template",
+  "workingdays" => "Working days",
+  "workstarttime" => "Work start time",
+  "workendtime" => "Work end time",
 );
 
 ?>
