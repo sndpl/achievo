@@ -9,6 +9,7 @@ Changes in Achievo 1.5
 + Added New and Edit links to the contract field in projects. [Guido]
 + Added emplyee contract templates [Sandy]
 + Added feedbackmessage after saving userpreferences [Sandy]
++ Added weeknumber to timereg day view [Sandy]
 * Fixed problem with displaying non active employees in the project
   team search. (Bug #1561) [Yury]
 * Fixed weekview date display. [Sandy]
