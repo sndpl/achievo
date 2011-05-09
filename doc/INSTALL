@@ -105,7 +105,7 @@ have a working webserver with PHP support and a MySQL database installed.
    http://yourserver/achievo/setup.php
 
    You'll be prompted to login. Enter 'administrator' as username and the
-   password you've set in step 4.
+   password you've set in step 5.
 
 7) Follow the instructions. Achievo will first perform some system checks, to
    see if your PHP configuration is up to date. If it discovers any problems,

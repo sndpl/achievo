@@ -64,25 +64,24 @@
             $userItems[] = $item["pimitem"];
         }
         $res = "";
-        foreach($pimItems as $modname => $item)
-        {
-          foreach($item as $itemName => $itemContent)
-          {
-            $pimitemid = $modname.'_'.$itemName;
-            atkdebug("Check: ".$pimitemid);
-            if(in_array($pimitemid, $userItems) && !in_array($pimitemid, $disallowedpimitems))
-            {
-              $module = &getModule($modname);
-              if (is_object($module))
-              {
-                if (method_exists($module, $itemContent))
-                {
-                  $itemContent = $module->$itemContent();
-                }
-                $res[atktext(array("pim_$itemName", $itemName), $modname)] = $itemContent;
+                 foreach($userItems as $userItem)
+         {
+             $moduleItem = split('_',$userItem);
+             $modname = $moduleItem[0];
+             $itemName = $moduleItem[1];
+             $itemContent = $pimItems[$modname][$itemName];
+              if(!in_array($userItem, $disallowedpimitems))
+             {
+			   $module = &getModule($modname);
+               if (is_object($module))
+               {
+                 if (method_exists($module, $itemContent))
+                 {
+                   $itemContent = $module->$itemContent();
+                 }
+                 $res[atktext(array("pim_$itemName", $itemName), $modname)] = $itemContent;
               }
             }
-          }
         }
       }
       $page = &$this->getPage();
