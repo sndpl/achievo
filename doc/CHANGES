@@ -10,11 +10,13 @@ Changes in Achievo 1.5
 + Added emplyee contract templates [Sandy]
 + Added feedbackmessage after saving userpreferences [Sandy]
 + Added weeknumber to timereg day view [Sandy]
+- Removed timereg config from the config file, because this is done in the config directory. [Klaaspeter]
 * Fixed problem with displaying non active employees in the project
   team search. (Bug #1561) [Yury]
 * Fixed weekview date display. [Sandy]
 * Fixed typo's in some translations. [Guido]
 * Allow all GET and POST parameters in links to index.php. [Guido]
+* Fixed orderby option in the pim module. [Klaaspeter]
 
 Changes in Achievo 1.4.6 (never released)
 ------------------------
