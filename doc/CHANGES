@@ -17,6 +17,7 @@ Changes in Achievo 1.5
 * Fixed typo's in some translations. [Guido]
 * Allow all GET and POST parameters in links to index.php. [Guido]
 * Fixed orderby option in the pim module. [Klaaspeter]
+* Changed link manual.php. [Klaaspeter]
 
 Changes in Achievo 1.4.6 (never released)
 ------------------------
