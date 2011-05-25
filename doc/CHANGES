@@ -18,6 +18,7 @@ Changes in Achievo 1.5
 * Allow all GET and POST parameters in links to index.php. [Guido]
 * Fixed orderby option in the pim module. [Klaaspeter]
 * Changed link manual.php. [Klaaspeter]
+* Fixed registerDependees in hoursurvey and basereport to work with ATK 6.5. [Klaaspeter]
 
 Changes in Achievo 1.4.6 (never released)
 ------------------------
