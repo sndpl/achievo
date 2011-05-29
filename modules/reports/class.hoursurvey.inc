@@ -503,7 +503,7 @@ class hoursurvey extends atkNode
       }
 
       $projectatt->m_ownerInstance = &$hoursnode;
-      $projectatt->_registerDependees();
+      $projectatt->addDependency(array($this, "_registerDependees"));
 
       $sortfieldcount = max(3, $columnConfig->countSortAttribs());
 
@@ -529,7 +529,7 @@ class hoursurvey extends atkNode
       $p_attr = new atkBoolAttribute("subproject");
       $p_attr->addDependee("phaseid");
       $p_attr->m_ownerInstance = &$hoursnode;
-      $p_attr->_registerDependees();
+      $p_attr->addDependency(array($this, "_registerDependees"));
 
       $data[] = array(atktext('subproject','project').':',$p_attr->edit($dummyrec));
 
@@ -571,7 +571,7 @@ class hoursurvey extends atkNode
       {
         $organizationatt->addDependee("contact_id");
         $organizationatt->m_ownerInstance = &$hoursnode;
-        $organizationatt->_registerDependees();
+        $organizationatt->addDependency(array($this, "_registerDependees"));
       }
 
       $data[] = array(atktext("organization","project").':','<SELECT name="roleid">'.$this->get_roles($roleid).'</SELECT> '.$organizationatt->edit($dummyrec));

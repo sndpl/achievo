@@ -119,7 +119,7 @@
       foreach ($this->m_attribIndexList as $id=>$attr)
       {
         $p_attr = &$this->getAttribute($attr['name']);
-        $p_attr->_registerDependees();
+        $p_attr->addDependency(array($this, "_registerDependees"));
         $label = $p_attr->getLabel();
         if ($p_attr->hasFlag(AF_OBLIGATORY))
           $label .= " $reqimg";

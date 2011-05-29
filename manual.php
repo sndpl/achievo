@@ -15,12 +15,10 @@
 
   $tmp_output='
 
-<br><br><br><br><br>
+<br>
 
-At some point, in the very, very distant future, a complete annotated reference manual will be present on this page.
-
-<br><br>For now, you can use <a href="manual/guide.html">this Achievo Guide</a>, graciously contributed by Greg Louis.
-<br><br><br><br><br>
+<br>You can find a manual on the wiki <a href="http://www.achievo.org/wiki/Achievo/Manual">http://www.achievo.org/wiki/Achievo/Manual</a>,.
+<br>
 
  ';
 
