@@ -20,7 +20,8 @@ Changes in Achievo 1.5
 * Changed link manual.php. [Klaaspeter]
 * Fixed registerDependees in hoursurvey and basereport to work with ATK 6.5. [Klaaspeter]
 * Fixed typo's in Dutch translation. [Klaaspeter]
-* Fixed to hide scheduler menu link. [Klaaspeter] 
+* Fixed to hide scheduler menu link. [Klaaspeter]
+* Fixed File right when upload by docmanger module. [Klaaspeter]  
 
 Changes in Achievo 1.4.6 (never released)
 ------------------------
