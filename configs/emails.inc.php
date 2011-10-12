@@ -4,6 +4,8 @@
 //         E-MAIL CONFIGURATION OPTIONS FOR CORE MODULES     //
 // ----------------------------------------------------------//
 
+// Notice! this config file isn't working yet!!!!!
+
 // true  = sending e-mail
 // false = not sending e-mail
 
@@ -18,6 +20,10 @@ $config['mail_scheduler_scheduling_delete'] = true; // send e-mail when the sche
 //--------------------------TOD0-----------------------------//
 
 $config['mail_todo_add'] = true; // send e-mail when there is a todo add
+
+//more e-mail options will come later.
+
+//--------------------------Timereg-----------------------------//
 
 //more e-mail options will come later.
 
