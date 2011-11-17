@@ -10,6 +10,7 @@ Changes in Achievo 1.5
 + Added emplyee contract templates [Sandy]
 + Added feedbackmessage after saving userpreferences [Sandy]
 + Added weeknumber to timereg day view [Sandy]
++ Added new French translation (still missing strings [Klaaspeter]
 - Removed timereg config from the config file, because this is done in the config directory. [Klaaspeter]
 * Fixed problem with displaying non active employees in the project
   team search. (Bug #1561) [Yury]
@@ -21,7 +22,7 @@ Changes in Achievo 1.5
 * Fixed registerDependees in hoursurvey and basereport to work with ATK 6.5. [Klaaspeter]
 * Fixed typo's in Dutch translation. [Klaaspeter]
 * Fixed to hide scheduler menu link. [Klaaspeter]
-* Fixed File right when upload by docmanger module. [Klaaspeter]  
+* Fixed File right when upload by docmanger module. [Klaaspeter] 
 
 Changes in Achievo 1.4.6 (never released)
 ------------------------
