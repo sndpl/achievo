@@ -21,12 +21,12 @@
   //
   $fr = array(
   "abbreviation" => "Abreviation",
-  "activate" => "Activate", // Missing string!!!
+  "activate" => "Activer",
   "activate_contract" => "Activate contract & project(s)", // Missing string!!!
   "active" => "Actif",
   "activecontracts" => "Active organization contracts", // Missing string!!!
-  "activeprojects" => "Active projects", // Missing string!!!
-  "active_projects" => "Active projects", // Missing string!!!
+  "activeprojects" => "Projet actifs", 
+  "active_projects" => "Projet actifs", 
   "activity" => "Activite",
   "activitydate" => "Date",
   "activityid" => "Activite",
@@ -53,9 +53,9 @@
   "all_users" => "Tous les utilisateurs",
   "alwaysvisibleintimereg" => "Always visible in time registration", // Missing string!!!
   "appointments" => "Rendez-vous",
-  "approval" => "Goedgekeurd", // Missing string!!!
-  "approve" => "Approve", // Missing string!!!
-  "approved" => "Approved", // Missing string!!!
+  "approval" => "Approbation",
+  "approve" => "Approuver",
+  "approved" => "ApprouvÃ©",
   "app_shorttitle" => "Achievo",
   "app_title" => "Achievo",
   "archived" => "Archive",
@@ -65,7 +65,7 @@
   "assigned_to" => "Affecte a",
   "attendee_contactsearch" => "Ajouter des contacts",
   "attendee_empsearch" => "Ajout d'un(e) employe(e)",
-  "attendee_fuzzyhint" => "Ajoutez en dessous une liste de noms separes par des virgules Une recherche sera faite sur la base de donnees pour trouver les mmes occurrences.",
+  "attendee_fuzzyhint" => "Ajoutez en dessous une liste de noms separes par des virgules Une recherche sera faite sur la base de donnees pour trouver les mï¿½mes occurrences.",
   "balance" => "equilibre",
   "bankaccount" => "Compte en Banque",
   "bgcolor" => "Couleur de fond",
@@ -167,13 +167,13 @@
   "entrydate" => "Date de debut",
   "error_cannot_set_startdate_later_than_first_timereg" => "Cannot set phase startdate to a date later than the first timeregistration on this phase", // Missing string!!!
   "error_colorconfig_overlap" => "Record may not overlap with existing records.", // Missing string!!!
-  "error_date" => "La date de fin doit tre apres la date de debut",
+  "error_date" => "La date de fin doit ï¿½tre apres la date de debut",
   "error_enddate_cannot_start_before_startdate" => "Enddate can't start before the startdate", // Missing string!!!
   "error_hoursindayexceeded" => "Vous ne pouvez pas avoir plus de 24 heures par jour",
   "error_invalidmonth" => "A month entry must contain a valid year and a valid month number.", // Missing string!!!
   "error_invalidweek" => "La saisie d'une semaine doit comporter un numero de semaine et une annee valides.",
-  "error_startbiggerthanend" => "La date de debut doit tre avant la date de fin",
-  "error_time" => "L'heure de fin doit tre apres l'heure de debut",
+  "error_startbiggerthanend" => "La date de debut doit ï¿½tre avant la date de fin",
+  "error_time" => "L'heure de fin doit ï¿½tre apres l'heure de debut",
   "error_timereg_members_only" => "Uniquement les membres de ce projet peuvent enregistrer des donnees de temps sur ce projet",
   "evening" => "Soiree",
   "example" => "Example", // Missing string!!!
@@ -196,10 +196,10 @@
   "highest" => "Le plus haut",
   "history" => "Historique",
   "holidays" => "Vacances",
-  "holiday_date" => "Jour FŽriŽ",
+  "holiday_date" => "Jour Fï¿½riï¿½",
   "hourlock_month_explanation" => "Enter 4 digit year followed by 2 digit month number (e.g. 200601) for january 2006", // Missing string!!!
   "hourlock_userid_explanation" => "Selectionnez l'utilisateur que vous voulez verrouiller, ou bien ne selectionnez aucun utilisateur pour les verouiller tous",
-  "hourlock_week_explanation" => "Éecrivez l'annee sur 4 chiffres suivie du numero de la semaine sur 2 chiffres (par exemple 200634)",
+  "hourlock_week_explanation" => "ï¿½ecrivez l'annee sur 4 chiffres suivie du numero de la semaine sur 2 chiffres (par exemple 200634)",
   "hours" => "Heures",
   "hoursleft" => "Hours laissees",
   "hourspda" => "Hours", // Missing string!!!
@@ -297,8 +297,8 @@
   "menu_contact_admin" => "Contacts",
   "menu_contracts" => "Contrats externes",
   "menu_contracttype" => "Contrats externes",
-  "menu_costregistration_admin" => "Saisie du cožt",
-  "menu_costregistration_costreport" => "Rapport de cožt",
+  "menu_costregistration_admin" => "Saisie du coï¿½t",
+  "menu_costregistration_costreport" => "Rapport de coï¿½t",
   "menu_employeemanagement" => "Employes",
   "menu_employee_admin" => "Employes",
   "menu_employee_personalstats" => "Statistiques Personnelles",
@@ -343,7 +343,7 @@
   "menu_tpl_project_admin" => "Modele de Projet",
   "menu_weekreport" => "Rapport hebdo. des employes",
   "menu_workperiod_admin" => "Periodes de travail",
-  "milestones" => "Éjalons",
+  "milestones" => "ï¿½jalons",
   "minutes" => "Minutes",
   "month" => "Mois",
   "monthlocked" => "Month is locked", // Missing string!!!
@@ -355,7 +355,7 @@
   "mra_complete" => "Complete", // Missing string!!!
   "mra_deactivate" => "Deactivate", // Missing string!!!
   "mra_move" => "Move", // Missing string!!!
-  "mustbecompletedbeforephase" => "doit tre complete avant la phase",
+  "mustbecompletedbeforephase" => "doit ï¿½tre complete avant la phase",
   "name" => "Nom",
   "negative" => "Negative", // Missing string!!!
   "new" => "Nouveau",
@@ -395,7 +395,7 @@
   "owner" => "Proprietaire",
   "parameters" => "Parametres",
   "password" => "Mot de passe",
-  "password_leaveblankifunchanged" => "Laisser les deux champs de saisie de mot de passe vides si vous voulez conserver le mme mot de passe.",
+  "password_leaveblankifunchanged" => "Laisser les deux champs de saisie de mot de passe vides si vous voulez conserver le mï¿½me mot de passe.",
   "payment" => "Payment", // Missing string!!!
   "payment_id" => "Payment", // Missing string!!!
   "paymethod" => "Methode de paiement",
@@ -539,7 +539,7 @@
   "selectandaddnewproject" => "Select and link an existing project", // Missing string!!!
   "select_project" => "Add project", // Missing string!!!
   "seluserdate" => "Selectionner les employes ainsi qu'une date pour comparer les emplois du temps",
-  "setcostsfilter" => "Choisir le filtre a appliquer sur les cožts:",
+  "setcostsfilter" => "Choisir le filtre a appliquer sur les coï¿½ts:",
   "sethoursfilter" => "Choisir le filtre a appliquer sur les heures:",
   "showonlyphasesfrom" => "Show only phases that are active in the period from", // Missing string!!!
   "socialsecuritynumber" => "Social Security Number", // Missing string!!!
@@ -603,7 +603,7 @@
   "title_calendar" => "Emploi du temps",
   "title_employee" => "Administration employe",
   "title_employeestats" => "Statistiques Employes",
-  "title_employeestats_costs" => "Cet employe a enregistre des cožts sur les projets suivants",
+  "title_employeestats_costs" => "Cet employe a enregistre des coï¿½ts sur les projets suivants",
   "title_employeestats_details_hoursof" => "Heures de",
   "title_employeestats_details_onproject" => " sur le projet",
   "title_employeestats_peractivity" => "Cet employe a enregistre du temps sur les activites suivantes",
@@ -670,14 +670,14 @@
   "uc_hours" => "Heures hebdo.",
   "unconfirmed" => "Non confirme",
   "unlock" => "Ouvrir",
-  "unlocked" => "DŽverrouillŽ",
+  "unlocked" => "Dï¿½verrouillï¿½",
   "uptoandincluding" => "jusqu'au",
   "usercontract" => "Contract", // Missing string!!!
   "usercontracts" => "Contrats des employes",
   "userid" => "Utilisateur",
   "userpimitems" => "Pim items", // Missing string!!!
   "userprefs" => "Preferences de l'utilisateur",
-  "vatnumber" => "N¡ de TVA/N¡ fiscal",
+  "vatnumber" => "Nï¿½ de TVA/Nï¿½ fiscal",
   "vcard" => "vCard", // Missing string!!!
   "version" => "Version",
   "viewschedule" => "Voir le planning",
@@ -696,7 +696,7 @@
   "workperiod" => "Periode de travail",
   "year" => "Year", // Missing string!!!
   "yearly" => "Annee",
-  "youareinthearchive" => "Vous tes en train de consulter des archives.",
+  "youareinthearchive" => "Vous ï¿½tes en train de consulter des archives.",
   "zipcode" => "Code Postal",
 );
 
