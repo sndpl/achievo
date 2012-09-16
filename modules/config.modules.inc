@@ -8,16 +8,12 @@
  * @package achievo
  * @subpackage modules
  *
- * @copyright (c)2008 Ibuildings B.V.
  * @license http://www.achievo.org/licensing Achievo Open Source License
  *
- * @version $Revision$
- * $Id$
  */
 
 /**
- * Turn on the default achievo modules, custom modules should be
- * added in the config.inc.php
+ * Core modules that can't be disabeld
  */
   module("utils");
   module("email_template");
@@ -31,7 +27,9 @@
   module("pim");
   module("graph");
 
-  // Core modules that can be turned off by commenting them
+/**
+ * Core modules that can be turned off by commenting them
+ */
   module("notes");
   module("scheduler");
   module("todo");
@@ -39,4 +37,8 @@
   module("quotation");
   module("docmanager");
   module("crm");
+
+/**
+ * Set custom modules below here
+ */
 
